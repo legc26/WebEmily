@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: ##6951AE;
+  color: #6951AE;
   text-decoration: none;
 }
 
@@ -706,7 +706,7 @@ section {
   border-radius: 50%;
   width: 72px;
   height: 72px;
-  background: #fff4df;
+  background: #f8f8f8;
 }
 
 .services .icon i {
@@ -772,8 +772,6 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
-  border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
 
@@ -1362,3 +1360,16 @@ section {
   background: #6951AE;
 }
 
+
+
+@media only screen and (max-width: 360px) {
+  #header {
+    margin-right: 86px;
+  }
+  .mobile-nav-toggle {
+    margin-right: 100px;
+  }
+  .back-to-top i {
+margin-right: 86px;
+  }
+}
