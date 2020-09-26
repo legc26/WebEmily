@@ -1353,6 +1353,10 @@ section {
 @media (max-width: 400px) {
   .portfolio #portfolio-flters li {
     margin: 0 3px 3px 3px;
+    .portfolio .portfolio-item {
+      margin-bottom: 30px;
+    }
   }
+  
 }
 }
