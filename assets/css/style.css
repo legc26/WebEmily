@@ -1134,7 +1134,7 @@ section {
   color: #6951AE;
   border-radius: 50%;
   padding: 15px;
-  background: #fff6e4;
+  background: #f8f8f8;
 }
 
 .contact .info-box h3 {
@@ -1353,10 +1353,14 @@ section {
 @media (max-width: 400px) {
   .portfolio #portfolio-flters li {
     margin: 0 3px 3px 3px;
-    .portfolio .portfolio-item {
-      margin-bottom: 30px;
-    }
+    
   }
   
+  .services .icon-box{
+    border-color: #6951AE;
+  }
+  .services .icon-box:hover {
+    border-color: #fff;
+  }
 }
 }
